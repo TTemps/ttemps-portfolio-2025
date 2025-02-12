@@ -12,16 +12,16 @@ const ContactForm = () => {
 					className="max-w-xl m-4 p-6 sm:p-10 bg-secondary-light dark:bg-secondary-dark rounded-xl shadow-xl text-left"
 				>
 					<p className="font-general-medium text-primary-dark dark:text-primary-light text-2xl mb-8">
-						Contact Form
+						Formulaire de contact
 					</p>
 					<FormInput
-						inputLabel="Full Name"
+						inputLabel="Nom complet"
 						labelFor="name"
 						inputType="text"
 						inputId="name"
 						inputName="name"
-						placeholderText="Your Name"
-						ariaLabelName="Name"
+						placeholderText="Votre nom"
+						ariaLabelName="Nom"
 					/>
 					<FormInput
 						inputLabel="Email"
@@ -29,17 +29,17 @@ const ContactForm = () => {
 						inputType="email"
 						inputId="email"
 						inputName="email"
-						placeholderText="Your email"
+						placeholderText="Votre email"
 						ariaLabelName="Email"
 					/>
 					<FormInput
-						inputLabel="Subject"
+						inputLabel="Sujet"
 						labelFor="subject"
 						inputType="text"
 						inputId="subject"
 						inputName="subject"
-						placeholderText="Subject"
-						ariaLabelName="Subject"
+						placeholderText="Sujet"
+						ariaLabelName="Sujet"
 					/>
 
 					<div className="mt-6">
@@ -61,9 +61,9 @@ const ContactForm = () => {
 
 					<div className="font-general-medium w-40 px-4 py-2.5 text-white text-center font-medium tracking-wider bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 rounded-lg mt-6 duration-500">
 						<Button
-							title="Send Message"
+							title="Envoyer"
 							type="submit"
-							aria-label="Send Message"
+							aria-label="Envoyer"
 						/>
 					</div>
 				</form>
