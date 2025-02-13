@@ -1,54 +1,54 @@
 // Import images
-import AmazonImage from '../images/brands/amazon_gray.png';
-import SonyImage from '../images/brands/sony_gray.png';
-import AdidasImage from '../images/brands/adidas_gray.png';
-import FilaImage from '../images/brands/fila_gray.png';
-import NBImage from '../images/brands/nb_gray.png';
-import SamsungImage from '../images/brands/samsung_gray.png';
-import CanonImage from '../images/brands/canon_gray.png';
-import PumaImage from '../images/brands/puma_gray.png';
+import PowershellImage from '../images/brands/powershell_color.png';
+import AzureImage from '../images/brands/azure_color.png';
+import PythonImage from '../images/brands/python_color.png';
+import VmwareImage from '../images/brands/vwmare_color.png';
+import SQLImage from '../images/brands/sql_color.png';
+import MAImage from '../images/brands/manageengine_color.png';
+import GrafanaImage from '../images/brands/grafana_color.png';
+import TrelloImage from '../images/brands/trello_color.png';
 
-export const clientsHeading = 'Some of the brands that trust me';
+export const clientsHeading = 'Les technologies que j\'utilise';
 
 export const clientsData = [
 	{
 		id: 1,
-		title: 'Amazon',
-		img: AmazonImage,
+		title: 'Powershell',
+		img: PowershellImage,
 	},
 	{
 		id: 2,
-		title: 'Sony',
-		img: SonyImage,
+		title: 'Azure',
+		img: AzureImage,
 	},
 	{
 		id: 3,
-		title: 'Adidas',
-		img: AdidasImage,
+		title: 'Python',
+		img: PythonImage,
 	},
 	{
 		id: 4,
-		title: 'FILA',
-		img: FilaImage,
+		title: 'VM Ware',
+		img: VmwareImage,
 	},
 	{
 		id: 5,
-		title: 'NB',
-		img: NBImage,
+		title: 'SQL',
+		img: SQLImage,
 	},
 	{
 		id: 6,
-		title: 'SAMSUNG',
-		img: SamsungImage,
+		title: 'Manage Engine',
+		img: MAImage,
 	},
 	{
 		id: 7,
-		title: 'CANON',
-		img: CanonImage,
+		title: 'Grafana',
+		img: GrafanaImage,
 	},
 	{
 		id: 8,
-		title: 'PUMA',
-		img: PumaImage,
+		title: 'Trello',
+		img: TrelloImage,
 	},
 ];
