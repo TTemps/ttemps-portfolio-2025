@@ -21,7 +21,7 @@ const ContactForm = () => {
 						inputId="name"
 						inputName="name"
 						placeholderText="Votre nom"
-						ariaLabelName="Nom"
+						ariaLabelName="name"
 					/>
 					<FormInput
 						inputLabel="Email"
@@ -30,7 +30,7 @@ const ContactForm = () => {
 						inputId="email"
 						inputName="email"
 						placeholderText="Votre email"
-						ariaLabelName="Email"
+						ariaLabelName="email"
 					/>
 					<FormInput
 						inputLabel="Sujet"
@@ -39,7 +39,7 @@ const ContactForm = () => {
 						inputId="subject"
 						inputName="subject"
 						placeholderText="Sujet"
-						ariaLabelName="Sujet"
+						ariaLabelName="subject"
 					/>
 
 					<div className="mt-6">
@@ -55,7 +55,7 @@ const ContactForm = () => {
 							name="message"
 							cols="14"
 							rows="6"
-							aria-label="Message"
+							aria-label="message"
 						></textarea>
 					</div>
 
@@ -63,7 +63,7 @@ const ContactForm = () => {
 						<Button
 							title="Envoyer"
 							type="submit"
-							aria-label="Envoyer"
+							aria-label="submit"
 						/>
 					</div>
 				</form>
